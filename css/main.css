@@ -23,5 +23,12 @@ h3 {
 a.link    {
     color:deepskyblue;
     background-color:transparent;
-    text-decoration:none
+    text-decoration:none;
+}
+
+p.subtitle {
+    font-weight : bold;
+    background-color:transparent;
+    text-align:left;
+    color:darkgray;
 }
