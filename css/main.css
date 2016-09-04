@@ -3,14 +3,25 @@ p{
 }
 
 p.summary {
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
 }
 
 p.project {
     text-align: left;
+    padding-bottom: 1rem;
+}
+
+p.socialnet {
+    font-weight : bold;
 }
 
 h3 {
     font-style : italic;
     font-weight : bold;
+}
+
+a.link    {
+    color:deepskyblue;
+    background-color:transparent;
+    text-decoration:none
 }
