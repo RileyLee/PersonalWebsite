@@ -26,9 +26,25 @@ a.link    {
     text-decoration:none;
 }
 
+a.link_db    {
+    color: #1903ff;
+    background-color:transparent;
+    text-decoration:none;
+}
+
 p.subtitle {
     font-weight : bold;
     background-color:transparent;
     text-align:left;
     color:darkgray;
+}
+
+hr {
+    display: block;
+    margin-top: 2.0em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1.5px;
 }
