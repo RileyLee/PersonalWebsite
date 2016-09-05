@@ -7,8 +7,10 @@ p.summary {
 }
 
 p.project {
+    position : relative;
+    top : 0px;
     text-align: left;
-    padding-bottom: 1rem;
+    padding-bottom: -1rem;
 }
 
 p.socialnet {
