@@ -8,8 +8,8 @@ ul.top-bar {
 }
 
 li.menu {
-    float: left;
-}
+     float: left;
+ }
 
 li.menu a {
     display: block;
@@ -22,6 +22,19 @@ li.menu a {
 li.menu a:hover {
     background-color: #ffe901;
 }
+
+li.labels {
+    float: right;
+}
+
+li.labels a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 
 .menuBar {
     width:100%;
