@@ -12,7 +12,6 @@
 
 </head>
 
-
 <body style="margin-left: 20px; width : 100%">
 
     <div class="menuBar">
@@ -25,21 +24,23 @@
 
     </div>
 
+    <div class="menuBarHidden"> </div>
+
 
     <div class="profilePhoto">
-        <div>
+        <div >
             <h1 style="font-family:'Helvetica Neue'">
                 Yuguang Li (Riley)
             </h1>
 
-            <div style="position: absolute; top: 0px; left : 300px;">
+            <div style="position: absolute; top: 80px; left : 320px;">
                 <a href="http://grail.cs.washington.edu/"; target="_blank"; class="link"; float = right; >
                     <img src="pics/UW_CSE.png" alt="fb" style="width:160px; height:160px; vertical-align: top;">
                     <img src="pics/AdamSummit.jpg" alt="Adam Summit" style="position:relative; left: 10px; width:580px;height:172px;vertical-align: top;">
                 </a>
             </div>
 
-            <div style="position: absolute; top : 45px; left : 10px;">
+            <div style="position: static;">
                 <p class="address">
                     402 Paul G. Allen Center for Computer Science & Engineering,
                     185 West Stevens Way Northeast
@@ -52,8 +53,8 @@
 
         </div>
 
-        <div style="position: absolute; top : 170px;">
-            <div style="position: absolute; left : 25px;">
+        <div style="position: relative">
+            <div style="position: relative; left: 25px">
                 <a href="https://github.com/RileyLee"; target="_blank"; class="link"; float = right;>
                     <img src="pics/GitHub-Mark.png" alt="github" class="logo">
                 </a>
@@ -67,7 +68,7 @@
                 </a>
             </div>
 
-            <div style="position: relative; left : 10px; top : 30px;">
+            <div style="position: relative; left: 10px">
                 <p class="tags">
                     <b>Image Engineer</b> / <b>Computer Graphics</b> / <b>Image Recognition</b> / <b>PhD student at University of Washington</b>
                 </p>
@@ -95,7 +96,8 @@
             Relevant courses include Machine Learning, Computer Vision, Computer Graphics, Artificial Intelligence, Digital Signal Processing,
             Optics for Engineers, Robotics, Embededed System, Geospatial Information System, Fundamentals of Programming and Algorithms and Data Structures.
             Proficient in C++, C, Python, OpenCV, OpenGL, Caffe, Halide and Matlab. Worked on different platforms like Windows,
-            Linux and Mac OS.<br/><br/>
+            Linux and Mac OS.
+            <br/><br/>
 
             I was active in remote sensing community (previous IEEE GARSS, SPIE and ASPRS student members) doing sensor
             simulation, physics model simulation, pattern recognition and lidar signal processing.
@@ -121,6 +123,7 @@
                     of hardware platforms, iOS, Android, windows, webs apps and etc. During the project, I helped improve the Halide library with OpenGL.
                     In the meantime, I invented several new filters, such as graphic novel, pop-art and halftone.
                     Photoshop Express and Aviary have already been using our solution in their products.
+                    <a href="files/CHIPP.pptx" target="_blank">[slides]</a>
                 </blockquote></p>
             </div>
 
@@ -135,9 +138,6 @@
                     and iPhone videos demonstrate promising results for both single-view environment matting and interpolation. We also
                     did experiments with Lytro-Illum camera and structure from motion to calibrate camera positions. They didn't turn
                     out to be successful but is a great lesson to learn.
-                    <a href="files/CHIPP.pptx" target="_blank">
-                        [slides]
-                    </a>
                     <br/>
                     <a href="http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html" target="_blank">
                         http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html
@@ -160,14 +160,14 @@
 
 
             <div class="project">
-                <h3>Mitosis recognition from histopathological images</h3>
+                <h3>Click to edit project nameFast mitosis counting from histopathological images using deep learning</h3>
                     <blockquote><p class = "project" style = "text-align : justify;">
-                        The count of mitosis existing in histopathological images is widely used in cancer diagnosis. So far, mitosis are
-                        mainly picked out visually by experienced technicians. The existing computer algorithm is mainly built on either
-                        deep leaning neural network or feature classifier with handcrafted feature selection and extraction method. In this
-                        project, I'm working on improving the state-of-art algorithm by merging these two mainstream methods above together.
-                        By using object segmentation, computer is able to find mitosis faster. In the meantime, handcrafted features
-                        contributes to a higher recognition accuracy.
+                        In this project, I invented a fast mitosis detection pipeline applied to histopathological images.
+                        The proposed method is similar to RCNN, where regional proposal is created by pixel-wise classification
+                        using a random forest classifier. Image patches are then classified by multi-column convolutional
+                        neural network. It was trained with different datasets, where pre-processing and data augmentation
+                        were applied. The proposed method achieved an average 500 times speedup compared with the traditional
+                        scanning window technique. In the meantime, we discovered new handcrafted image features which helps with mitosis detection.
                     </p></blockquote>
             </div>
 
