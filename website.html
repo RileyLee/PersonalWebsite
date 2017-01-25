@@ -2,341 +2,351 @@
 
 <html lang="en">
 
-<link rel="stylesheet" href="css/structure.css">
+<link rel="stylesheet" href="css/style.css">
 
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-    <title>Yuguang Li - Personal Website</title>
-    <link rel="shortcut icon" href="pics/pacman.ico" />
+  <title>Yuguang Li - Personal Website</title>
+  <link rel="shortcut icon" href="pics/pacman.ico" />
 
 </head>
 
-<body style="margin-left: 20px; width : 100%">
+<body class="spread">
 
-    <div class="menuBar">
-        <ul class="top-bar">
-            <li class="menu"><a href="#Projects">Projects</a></li>
-            <li class="menu"><a href="#Gallery">Gallery</a></li>
-            <li class="menu"><a href="#Publication">Publication</a></li>
-            <li class="labels"><a href="http://grail.cs.washington.edu/"; target="_blank"; class="link";>University of Washington | GRAIL</a></li>
-        </ul>
+  <div id="nav">
+    <ul>
+      <li class="menu"><a href="#Projects">Projects</a></li>
+      <li class="menu"><a href="#Gallery">Gallery</a></li>
+      <li class="menu"><a href="#Publication">Publication</a></li>
+      <li class="tag"><a href="http://grail.cs.washington.edu/"; target="_blank"; class="link";>University of Washington | GRAIL</a></li>
+    </ul>
+  </div>
 
-    </div>
+  <div class="profilePhoto">
+    <div style="margin-top: 20px;">
+      <div class = "name">
+        <h1 style="font-family:'Helvetica Neue'">
+          Yuguang Li (Riley)
+        </h1>
 
-    <div class="menuBarHidden"> </div>
+        <p class="address">
+          402 Paul G. Allen Center for Computer Science & Engineering,
+          185 West Stevens Way Northeast
+          Seattle, WA 98195
+        </p>
 
+        <p class="email">
+          <b>Email</b> : ylee3@cs.washington.edu
+        </p>
 
-    <div class="profilePhoto">
-        <div >
-            <h1 style="font-family:'Helvetica Neue'">
-                Yuguang Li (Riley)
-            </h1>
+      </div>
 
-            <div style="position: absolute; top: 80px; left : 320px;">
-                <a href="http://grail.cs.washington.edu/"; target="_blank"; class="link"; float = right; >
-                    <img src="pics/UW_CSE.png" alt="fb" style="width:160px; height:160px; vertical-align: top;">
-                    <img src="pics/AdamSummit.jpg" alt="Adam Summit" style="position:relative; left: 10px; width:580px;height:172px;vertical-align: top;">
-                </a>
-            </div>
-
-            <div style="position: static;">
-                <p class="address">
-                    402 Paul G. Allen Center for Computer Science & Engineering,
-                    185 West Stevens Way Northeast
-                    Seattle, WA 98195
-                </p>
-                <p class="email">
-                    <b>Email</b> : ylee3@cs.washington.edu
-                </p>
-            </div>
-
-        </div>
-
-        <div style="position: relative">
-            <div style="position: relative; left: 25px">
-                <a href="https://github.com/RileyLee"; target="_blank"; class="link"; float = right;>
-                    <img src="pics/GitHub-Mark.png" alt="github" class="logo">
-                </a>
-
-                <a href="https://www.linkedin.com/in/yuguang-lee-48700a58"; target="_blank"; class="link"; float = right;>
-                    <img src="pics/LinkedIn_logo.png" alt="fb" class="logo">
-                </a>
-
-                <a href="files/Yuguang_Resume.pdf"; target="_blank"; class="link"; float = right;>
-                    <img src="pics/resume.png" alt="fb" class="logo">
-                </a>
-            </div>
-
-            <div style="position: relative; left: 10px">
-                <p class="tags">
-                    <b>Image Engineer</b> / <b>Computer Graphics</b> / <b>Image Recognition</b> / <b>PhD student at University of Washington</b>
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div style="position: absolute; top : 340px; text-align : justify;">
-        <h2>Summary</h2>
-        <p><blockquote>
-
-            <p style="padding-top: 0.2em;">
-            I'm a 3rd-year PhD student advised by Professor
-            <a href="http://homes.cs.washington.edu/~shapiro/" target="_blank">
-                Linda Shapiro
-            </a>
-            from University of Washington. I'm a part of the
-            <a href="http://grail.cs.washington.edu/" target="_blank">GRAIL</a>
-            lab in UW CSE. I have strong interests and background in
-            image object detection, machine learning, ray-tracing, computation photography, artificial
-            intelligence and software development. I'm working on multiple projects of large-scene photon mapping,
-            medical histopathological image recognition, face recognition and signal processing of raw sensor data (lytro and large-footprint lidar).<br/><br/>
-            Relevant courses include Machine Learning, Computer Vision, Computer Graphics, Artificial Intelligence, Digital Signal Processing,
-            Optics for Engineers, Robotics, Embededed System, Geospatial Information System, Fundamentals of Programming and Algorithms and Data Structures.
-            Proficient in C++, C, Python, OpenCV, OpenGL, Caffe, Halide and Matlab. Worked on different platforms like Windows,
-            Linux and Mac OS.
-            <br/><br/>
-            <!---While I'm having strong my interests on all I've mentioned above about the technical parts, I do believe people
-            have great potentials as long as they're willing to learn, work hard on what they're focusing on and be smart on
-            whatever decision they're making. I have experiences on lots of different fields, including environmental science and
-            electrical engineering. I was an active student member of IEEE GARSS, SPIE and ASPRS communities. I'm willing
-            to explore different opportunities and contributing to my firm from different perspectives.<br><br> --->
-
-            I was active in remote sensing community (previous IEEE GARSS, SPIE and ASPRS student members) doing sensor
-            simulation, physics model simulation, pattern recognition and lidar signal processing.
-            <a href="files/Yuguang_Resume.pdf"; target="_blank"; class="link-db"; float = right; style = "font-weight:bold">
-                Resume
-            </a>
-
-    </blockquote></p>
-        <hr>
-    </div>
-
-    <div style="position: absolute; top: 630px">
-        <A NAME="Projects">
-        <h2>Projects</h2>
-        <div style="position: relative; top: -10px; text-align : justify; padding-left: 0.6em;">
-
-            <div class="project">
-                <h3>Cross-platform Halide-based Image Processing Pipeline</h3>
-                <p><blockquote>
-                    I built a Halide-based cross-platform fast image proscessing solution to simplify hardware acceleration coding in
-                    image processing. With out framework built on OpenGL Halide, GPU and CPU
-                    image processing programs could be easily accelerated from scheduling. Meanwhile, Halide compiles them on all kind
-                    of hardware platforms, iOS, Android, windows, webs apps and etc. During the project, I helped improve the Halide library with OpenGL.
-                    In the meantime, I invented several new filters, such as graphic novel, pop-art and halftone.
-                    Photoshop Express and Aviary have already been using our solution in their products.
-                    <a href="files/CHIPP.pptx" target="_blank">[slides]</a>
-                </blockquote></p>
-            </div>
-
-            <div class="project">
-                <h3>Multi-view Environmental Matting and Interpolation</h3>
-                <blockquote><p class = "project" style = "text-align : justify;">
-                    Matting and compositing a reflective/refractive object like a glass cup into a new environment and make it look
-                    realistic from different perspectives is an interesting generalization of traditional greenscreen matting. Douglas
-                    introduced the environment matting method to simulate reflection/refraction effect for single perspective. To solve
-                    our multi-view environment matting problem, we implemented the traditional single-image environment method and
-                    incorporated interpolation to generate environment matting for unseen perspectives. Experiments using DSLR images
-                    and iPhone videos demonstrate promising results for both single-view environment matting and interpolation. We also
-                    did experiments with Lytro-Illum camera and structure from motion to calibrate camera positions. They didn't turn
-                    out to be successful but is a great lesson to learn.
-                    <br/>
-                    <a href="http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html" target="_blank">
-                        http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html
-                    </a>
-                </p></blockquote>
-            </div>
-
-            <div class="project">
-                <h3>C++ based photon mapping engine for simulating fluorescent effects in vegetation canopies</h3>
-                <blockquote><p class = "project" style = "text-align : justify;">
-                    I built a ray-tracing (photon-mapping) physical engine to precisely simulate the generation and transmission of multi-spectral fluorescent effect
-                    in dense vegetation canopies (Plant fluorescent effect has been proved very accurate in indicating plant health condition).
-                    Compared to the traditional ray-tracing engines, this engine works with high precision and efficiency in the situation
-                    where most of the spectrum energy is reflected by diffusion, also the sensors (airborne cameras) are limited by very tiny field of view angles.
-                    In order to achieve this, I implemented GPU acceleration with openCL on CUDA architecture. The Monte Carlo chain is also
-                    optimized by improved sampling techniques. This research leads to multiple
-                    <a href="#Publication" >publications</a>, where we're still working on paper of simulating fluorescent effects.
-                </p></blockquote>
-            </div>
-
-
-            <div class="project">
-                <h3>Fast mitosis counting from histopathological images using deep learning</h3>
-                    <blockquote><p class = "project" style = "text-align : justify;">
-                        In this project, I invented a fast mitosis detection pipeline applied to histopathological images.
-                        The proposed method is similar to RCNN, where regional proposal is created by pixel-wise classification
-                        using a random forest classifier. Image patches are then classified by multi-column convolutional
-                        neural network. It was trained with different datasets, where pre-processing and data augmentation
-                        were applied. The proposed method achieved an average 500 times speedup compared with the traditional
-                        scanning window technique. In the meantime, we discovered new handcrafted image features which helps with mitosis detection.
-                    </p></blockquote>
-            </div>
-
-            <div class="project">
-                <h3>CVPR 2016 face recognition challenge</h3>
-                <blockquote><p class = "project" style = "text-align : justify;">
-                    We built a face detector and classifier to recognize gender and facial expression in the contest datasets. The
-                    overall accuracy of predicting gender and facial expressions are 81% and 89%.
-                    Our team Let's face it (2 members, me and
-                    <a href="http://homes.cs.washington.edu/~deepalia/" target="_blank">Deepali Aneja</a>
-                    ) ranks #5 of 77 teams with 84.7% overall accuracy on
-                    detecting facial expressions and gender detection. We'll make a web page for this very soon!! Click on this
-                    <a href="http://sergioescalera.com/wp-content/uploads/2016/05/18.pdf" target="_blank" class="link_db"> link </a>
-                    here for the official results. <br/>
-                    <a href="http://gesture.chalearn.org/2016-looking-at-people-cvpr-challenge" target="_blank">
-                        https://competitions.codalab.org/competitions/8421#learn_the_details
-                    </a>
-                </p></blockquote>
-            </div>
-
-            <div class="project">
-                <h3>Zooplankton recognition using deep learning neural network</h3>
-                <blockquote><p class = "project" style = "text-align : justify;">
-                    In this project, I worked on classifying grayscale images of plankton. They were created using scanners on sea-water
-                    samples. Each slide contains thousands of targets of different species. The target size is generally 1 - 5mm. The
-                    resulting plankton densities of different species are then used by scientists to analyze the fish production.
-                    Specifically, I'm trying to develop a rotation invariant deep learning convolution neural network model, which
-                    combines different handcrafted color and texture features to classify different species and their different phase.
-                    I'm also going to explore an optimized pipeline to efficiently select and scan the region of interest.
-                </p></blockquote>
-            </div>
-
-        </div>
-        </A>
-
-        <hr>
-        <A NAME="Gallery">
-            <h2>Project Gallery</h2>
-
-            <div class="video"; style="position: relative; left: 40px">
-                <h3>CHIPP</h3>
-                <iframe src='https://onedrive.live.com/embed?cid=5C9E3B00FE6056D7&resid=5C9E3B00FE6056D7%2111304&authkey=AN8mlo1V-GUml6o&em=2&wdAr=1.7777777777777777' width='610px' height='367px' frameborder='0'>
-                    This is an embedded
-                    <a target='_blank' href='https://office.com'>Microsoft Office</a>
-                    presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.
-                </iframe>
-            </div>
-
-            <div class="video">
-                <h3>R2D2</h3>
-                <figure>
-                    <iframe width="616" height="346" src="https://www.youtube.com/embed/5AaO7iHM_4w" frameborder="0" allowfullscreen></iframe>
-                </figure>
-                <p style="width : 800px">
-                    My first annimator project with my self-designed R2D2 model in OpenGL. Check this
-                    <a href="https://github.com/RileyLee/AnimatorR2D2" target="_blank" class="link">link</a>
-                    for more detail on github.
-                </p>
-            </div>
-
-            <div class="video">
-                <h3>Environmental Matting</h3>
-                <video width="44%" style="position: relative; left:40px;" controls="controls">
-                    <source src="videos/InterpV_Gopro3.mov" >
-
-                </video>
-                <p style="width : 800px">
-                    My Environmental Matting & scene interpolation demo video. This video is generated using two matting pictures. Click the
-                    <a href="http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html" target="_blank" class="link">
-                        link
-                    </a>
-                    for more detail on our project page.
-                </p>
-            </div>
-
-            <div class="video">
-                <h3>Oil Painting Filter</h3>
-
-                <div style="position: relative; left : 20px; top : 0px">
-                    <img src="pics/stolkholm.jpg" alt="original" style="width:30%; vertical-align: top;">
-                    <img src="pics/chipp_stockholm.png" alt="oilpaint" style="width:32.05%;vertical-align: top;">
-                </div>
-                <p style="width : 1000px">
-                    Picture of Stolkholm before and after Oilpaint filter from chipp (Adobe summer project). The whole 500 *
-                    600 image takes iPhone6s GPU 5ms to process. The whole pipeline with scheduling and optimization takes me
-                    about 2 intern days to finish using chipp (around 300 lines). However, a simple local laplacian filter used to take an experienced
-                    programmer about 1 month (2000 lines) with C++ optimization. <br/>
-                    <span style="font-size:10px">Photo credit : Hunter Mask ;)</span>
-                </p>
-            </div>
-        </A>
-
-        <div style="position: static;">
-            <hr>
-            <A NAME="Publication">
-
-                <h2>Publications</h2>
-                <p>
-                    <li type="square" style="position: relative; left : 20px">
-                        In Review: An iterative linear and non-linear Gaussian decomposition method for
-                        waveform LiDAR processing
-                        <br />
-                        <span style="padding-left:30px">
-                            Journal: Remote Sensing of Environment, submitted on Oct 11, 2016.
-                        </span>
-                        <br /><br />
-                    </li>
-
-                    <li type="square" style="position: relative; left : 20px">
-                        In Review: FluorWPS: a Monte Carlo ray-tracing model to compute sun-induced
-                        chlorophyll fluorescence of three-dimensionl canopy Journal: Remote Sensing of
-                        Environment
-                        <br />
-                        <span style="padding-left:30px">
-                            Journal: Remote Sensing of Environment, submitted on Apr 19, 2016
-                        </span>
-                        <br /><br />
-                    </li>
-
-
-                    <li type="square" style="position: relative; left : 20px">
-                        The impact of sensor field-of-view and distance on field measurements of directional reflectance factors: A simulation
-                        study for row crops
-                        <br />
-                        <span style="padding-left:30px">
-                            Journal: Remote Sensing of Environment 156 (2014): 129-142.
-                        </span>
-                        <br /><br />
-                    </li>
-
-                    <li type="square" style="position: relative; left : 20px">
-                        GPU-based acceleration for Monte Carlo ray-tracing of complex 3D scene
-                        <br />
-                        <span style="padding-left:30px">
-                            Geoscience and Remote Sensing Symposium (IGARSS), 2012 IEEE International / ISSN: 2153-6996
-                        </span>
-                        <br /><br />
-                    </li>
-
-                    <li type="square" style="position: relative; left : 20px">
-                        A Computer Simulation Model to Compute the Radiation Transfer of Mountainous Regions
-                        <br />
-                        <span style="padding-left:30px">
-                            Proceeding of SPIE Conference on Remote Sensing 2011/Proc. SPIE 8174, 817426 (2011)
-                        </span>
-                        <br /><br />
-                    </li>
-
-                    <li type="square" style="position: relative; left : 20px">
-                        A Radiosity-based Model to Compute the Radiation Transfer of Soil Surface
-                        <br />
-                        <span style="padding-left:30px">
-                            Proceeding of SPIE Conference on Remote Sensing 2011/Proc. SPIE 8174, 81742G (2011)
-                        </span>
-                        <br /><br />
-                    </li>
-                </p>
-            </A>
-        </div>
-        <hr>
-        <a href="http://www.reliablecounter.com" target="_blank">
-            <img src="http://www.reliablecounter.com/count.php?page=homes.cs.washington.edu/~ylee3/YuguangLee/website.html&digit=style/plain/13/&reloads=0" alt="www.reliablecounter.com" title="www.reliablecounter.com" border="0" align="right">
+      <div class="logo">
+        <a href="http://grail.cs.washington.edu/"; target="_blank"; class="link"; float = right; >
+          <img src="pics/UW_CSE.png" alt="fb" style="width:172px; height:172px; vertical-align: top;">
+          <img src="pics/AdamSummit.jpg" alt="Adam Summit" style="position:relative; left: 10px; width:580px;height:172px;vertical-align: top;">
         </a>
+      </div>
     </div>
+  </div>
+
+  <div>
+    <div>
+      <div style="display: inline; position: relative; display: block; left: -300px; top: 10px;">
+        <a href="https://github.com/RileyLee"; target="_blank"; class="link"; >
+          <img src="pics/GitHub-Mark.png" alt="github" class="logo">
+        </a>
+
+        <a href="https://www.linkedin.com/in/yuguang-lee-48700a58"; target="_blank"; class="link"; >
+          <img src="pics/LinkedIn_logo.png" alt="fb" class="logo">
+        </a>
+
+        <a href="files/Yuguang_Resume.pdf"; target="_blank"; class="link"; >
+          <img src="pics/resume.png" alt="fb" class="logo">
+        </a>
+      </div>
+
+      <div style="position: relative; left: 30px">
+        <p class="tags">
+          <b>Image Engineer</b> / <b>Computer Graphics</b> / <b>Image Recognition</b> / <b>PhD student at University of Washington</b>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <hr>
+
+
+  <div class="section">
+    <h2>Summary</h2>
+    <p><blockquote>
+
+      <p style="padding-top: 0.2em;">
+        I'm a 3rd-year PhD student advised by Professor
+        <a href="http://homes.cs.washington.edu/~shapiro/" target="_blank">
+          Linda Shapiro
+        </a>
+        from University of Washington. I'm a part of the
+        <a href="http://grail.cs.washington.edu/" target="_blank">GRAIL</a>
+        lab in UW CSE. I have strong interests and background in
+        image object detection, machine learning, ray-tracing, computation photography, artificial
+        intelligence and software development. I'm working on multiple projects of large-scene photon mapping,
+        medical histopathological image recognition, face recognition and signal processing of raw sensor data (lytro and large-footprint lidar).<br/><br/>
+        Relevant courses include Machine Learning, Computer Vision, Computer Graphics, Artificial Intelligence, Digital Signal Processing,
+        Optics for Engineers, Robotics, Embededed System, Geospatial Information System, Fundamentals of Programming and Algorithms and Data Structures.
+        Proficient in C++, C, Python, OpenCV, OpenGL, Caffe, Halide and Matlab. Worked on different platforms like Windows,
+        Linux and Mac OS.
+        <br/><br/>
+        <!---While I'm having strong my interests on all I've mentioned above about the technical parts, I do believe people
+        have great potentials as long as they're willing to learn, work hard on what they're focusing on and be smart on
+        whatever decision they're making. I have experiences on lots of different fields, including environmental science and
+        electrical engineering. I was an active student member of IEEE GARSS, SPIE and ASPRS communities. I'm willing
+        to explore different opportunities and contributing to my firm from different perspectives.<br><br> --->
+
+        I was active in remote sensing community (previous IEEE GARSS, SPIE and ASPRS student members) doing sensor
+        simulation, physics model simulation, pattern recognition and lidar signal processing.
+        <a href="files/Yuguang_Resume.pdf"; target="_blank"; class="link-db"; float = right; style = "font-weight:bold">
+          Resume
+        </a>
+
+      </blockquote></p>
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="section">
+    <A NAME="Projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Cross-platform Halide-based Image Processing Pipeline</h3>
+        <p><blockquote>
+          I built a Halide-based cross-platform fast image proscessing solution to simplify hardware acceleration coding in
+          image processing. With out framework built on OpenGL Halide, GPU and CPU
+          image processing programs could be easily accelerated from scheduling. Meanwhile, Halide compiles them on all kind
+          of hardware platforms, iOS, Android, windows, webs apps and etc. During the project, I helped improve the Halide library with OpenGL.
+          In the meantime, I invented several new filters, such as graphic novel, pop-art and halftone.
+          Photoshop Express and Aviary have already been using our solution in their products.
+          <a href="files/CHIPP.pptx" target="_blank">[slides]</a>
+        </blockquote></p>
+      </div>
+
+      <div class="project">
+        <h3>Multi-view Environmental Matting and Interpolation</h3>
+        <blockquote><p class = "projecttext" style = "text-align : justify;">
+          Matting and compositing a reflective/refractive object like a glass cup into a new environment and make it look
+          realistic from different perspectives is an interesting generalization of traditional greenscreen matting. Douglas
+          introduced the environment matting method to simulate reflection/refraction effect for single perspective. To solve
+          our multi-view environment matting problem, we implemented the traditional single-image environment method and
+          incorporated interpolation to generate environment matting for unseen perspectives. Experiments using DSLR images
+          and iPhone videos demonstrate promising results for both single-view environment matting and interpolation. We also
+          did experiments with Lytro-Illum camera and structure from motion to calibrate camera positions. They didn't turn
+          out to be successful but is a great lesson to learn.
+          <br/>
+          <a href="http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html" target="_blank">
+            http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html
+          </a>
+        </p></blockquote>
+      </div>
+
+      <div class="project">
+        <h3>C++ based photon mapping engine for simulating fluorescent effects in vegetation canopies</h3>
+        <blockquote><p class = "project" style = "text-align : justify;">
+          I built a ray-tracing (photon-mapping) physical engine to precisely simulate the generation and transmission of multi-spectral fluorescent effect
+          in dense vegetation canopies (Plant fluorescent effect has been proved very accurate in indicating plant health condition).
+          Compared to the traditional ray-tracing engines, this engine works with high precision and efficiency in the situation
+          where most of the spectrum energy is reflected by diffusion, also the sensors (airborne cameras) are limited by very tiny field of view angles.
+          In order to achieve this, I implemented GPU acceleration with openCL on CUDA architecture. The Monte Carlo chain is also
+          optimized by improved sampling techniques. This research leads to multiple
+          <a href="#Publication" >publications</a>, where we're still working on paper of simulating fluorescent effects.
+        </p></blockquote>
+      </div>
+
+
+      <div class="project">
+        <h3>Fast mitosis counting from histopathological images using deep learning</h3>
+        <blockquote><p class = "project" style = "text-align : justify;">
+          In this project, I invented a fast mitosis detection pipeline applied to histopathological images.
+          The proposed method is similar to RCNN, where regional proposal is created by pixel-wise classification
+          using a random forest classifier. Image patches are then classified by multi-column convolutional
+          neural network. It was trained with different datasets, where pre-processing and data augmentation
+          were applied. The proposed method achieved an average 500 times speedup compared with the traditional
+          scanning window technique. In the meantime, we discovered new handcrafted image features which helps with mitosis detection.
+        </p></blockquote>
+      </div>
+
+      <div class="project">
+        <h3>CVPR 2016 face recognition challenge</h3>
+        <blockquote><p class = "project" style = "text-align : justify;">
+          We built a face detector and classifier to recognize gender and facial expression in the contest datasets. The
+          overall accuracy of predicting gender and facial expressions are 81% and 89%.
+          Our team Let's face it (2 members, me and
+          <a href="http://homes.cs.washington.edu/~deepalia/" target="_blank">Deepali Aneja</a>
+          ) ranks #5 of 77 teams with 84.7% overall accuracy on
+          detecting facial expressions and gender detection. We'll make a web page for this very soon!! Click on this
+          <a href="http://sergioescalera.com/wp-content/uploads/2016/05/18.pdf" target="_blank" class="link_db"> link </a>
+          here for the official results. <br/>
+          <a href="http://gesture.chalearn.org/2016-looking-at-people-cvpr-challenge" target="_blank">
+            https://competitions.codalab.org/competitions/8421#learn_the_details
+          </a>
+        </p></blockquote>
+      </div>
+
+      <div class="project">
+        <h3>Zooplankton recognition using deep learning neural network</h3>
+        <blockquote><p class = "project" style = "text-align : justify;">
+          In this project, I worked on classifying grayscale images of plankton. They were created using scanners on sea-water
+          samples. Each slide contains thousands of targets of different species. The target size is generally 1 - 5mm. The
+          resulting plankton densities of different species are then used by scientists to analyze the fish production.
+          Specifically, I'm trying to develop a rotation invariant deep learning convolution neural network model, which
+          combines different handcrafted color and texture features to classify different species and their different phase.
+          I'm also going to explore an optimized pipeline to efficiently select and scan the region of interest.
+        </p></blockquote>
+      </div>
+
+      <div class="project">
+        <h3>Somatosensory Control Device of the Angry Birds</h3>
+        <p><blockquote>
+          I built a wireless somatosensory control device of the game Angry Birds. The system is composed of two parts.
+          A wireless slingshot controller with acceloration sensors and tension sensors, and a wireless reciever which
+          communicate with computer through a USB port. The whole device is designed with C8051 micro-processers and two
+          self-designed PCB circuit boards.
+        </blockquote></p>
+      </div>
+    </A>
+  </div>
+
+  <hr>
+  <A NAME="Gallery">
+    <h2>Project Gallery</h2>
+
+    <div class="video">
+      <h3>CHIPP</h3>
+      <iframe src='https://onedrive.live.com/embed?cid=5C9E3B00FE6056D7&resid=5C9E3B00FE6056D7%2111304&authkey=AN8mlo1V-GUml6o&em=2&wdAr=1.7777777777777777' width='610px' height='367px' frameborder='0'>
+        This is an embedded
+        <a target='_blank' href='https://office.com'>Microsoft Office</a>
+        presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.
+      </iframe>
+    </div>
+
+    <div class="video">
+      <h3>R2D2</h3>
+      <figure>
+        <iframe width="616" height="346" src="https://www.youtube.com/embed/5AaO7iHM_4w" frameborder="0" allowfullscreen></iframe>
+      </figure>
+      <p style="width : 800px">
+        My first annimator project with my self-designed R2D2 model in OpenGL. Check this
+        <a href="https://github.com/RileyLee/AnimatorR2D2" target="_blank" class="link">link</a>
+        for more detail on github.
+      </p>
+    </div>
+
+    <div class="video">
+      <h3>Environmental Matting</h3>
+      <video width="44%" style="position: relative; left:40px;" controls="controls">
+        <source src="videos/InterpV_Gopro3.mov" >
+
+        </video>
+        <p style="width : 800px">
+          My Environmental Matting & scene interpolation demo video. This video is generated using two matting pictures. Click the
+          <a href="http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html" target="_blank" class="link">
+            link
+          </a>
+          for more detail on our project page.
+        </p>
+      </div>
+
+      <div class="video">
+        <h3>Oil Painting Filter</h3>
+
+        <div style="position: relative; left : 20px; top : 0px">
+          <img src="pics/stolkholm.jpg" alt="original" style="width:30%; vertical-align: top;">
+          <img src="pics/chipp_stockholm.png" alt="oilpaint" style="width:32.05%;vertical-align: top;">
+        </div>
+        <p style="width : 1000px">
+          Picture of Stolkholm before and after Oilpaint filter from chipp (Adobe summer project). The whole 500 *
+          600 image takes iPhone6s GPU 5ms to process. The whole pipeline with scheduling and optimization takes me
+          about 2 intern days to finish using chipp (around 300 lines). However, a simple local laplacian filter used to take an experienced
+          programmer about 1 month (2000 lines) with C++ optimization. <br/>
+          <span style="font-size:10px">Photo credit : Hunter Mask ;)</span>
+        </p>
+      </div>
+    </A>
+
+    <div style="position: static;">
+      <hr>
+      <A NAME="Publication">
+
+        <h2>Publications</h2>
+        <p>
+          <li type="square" style="position: relative; left : 20px">
+            In Review: An iterative linear and non-linear Gaussian decomposition method for
+            waveform LiDAR processing
+            <br />
+            <span style="padding-left:30px">
+              Journal: Remote Sensing of Environment, submitted on Oct 11, 2016.
+            </span>
+            <br /><br />
+          </li>
+
+          <li type="square" style="position: relative; left : 20px">
+            FluorWPS: a Monte Carlo ray-tracing model to compute sun-induced
+            chlorophyll fluorescence of three-dimensionl canopy.
+            <br />
+            <span style="padding-left:30px">
+              Journal: Remote Sensing of Environment, 187 (2016): 385-399
+            </span>
+            <br /><br />
+          </li>
+
+
+          <li type="square" style="position: relative; left : 20px">
+            The impact of sensor field-of-view and distance on field measurements of directional reflectance factors: A simulation
+            study for row crops
+            <br />
+            <span style="padding-left:30px">
+              Journal: Remote Sensing of Environment 156 (2014): 129-142.
+            </span>
+            <br /><br />
+          </li>
+
+          <li type="square" style="position: relative; left : 20px">
+            GPU-based acceleration for Monte Carlo ray-tracing of complex 3D scene
+            <br />
+            <span style="padding-left:30px">
+              Geoscience and Remote Sensing Symposium (IGARSS), 2012 IEEE International / ISSN: 2153-6996
+            </span>
+            <br /><br />
+          </li>
+
+          <li type="square" style="position: relative; left : 20px">
+            A Computer Simulation Model to Compute the Radiation Transfer of Mountainous Regions
+            <br />
+            <span style="padding-left:30px">
+              Proceeding of SPIE Conference on Remote Sensing 2011/Proc. SPIE 8174, 817426 (2011)
+            </span>
+            <br /><br />
+          </li>
+
+          <li type="square" style="position: relative; left : 20px">
+            A Radiosity-based Model to Compute the Radiation Transfer of Soil Surface
+            <br />
+            <span style="padding-left:30px">
+              Proceeding of SPIE Conference on Remote Sensing 2011/Proc. SPIE 8174, 81742G (2011)
+            </span>
+            <br /><br />
+          </li>
+        </p>
+      </A>
+    </div>
+    <hr>
+    <a href="http://www.reliablecounter.com" target="_blank">
+      <img src="http://www.reliablecounter.com/count.php?page=homes.cs.washington.edu/~ylee3/YuguangLee/website.html&digit=style/plain/13/&reloads=0" alt="www.reliablecounter.com" title="www.reliablecounter.com" border="0" align="right">
+    </a>
+  </div>
 
 
 
