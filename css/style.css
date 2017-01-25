@@ -1,0 +1,99 @@
+.spread{
+  width : 100%
+
+}
+
+#nav{
+  background-color: black;
+  height: 40px;
+  font-weight: normal;
+  font-size: 18px;
+  font: Tahoma;
+}
+
+#nav ul{
+  padding:0px;
+  margin: 0px;
+  text-align: left;
+  list-style-type: none;
+}
+
+#nav li{
+  display: inline;
+  padding: 7px;
+  vertical-align: middle;
+}
+
+#nav li.menu{
+  float: left;
+}
+
+#nav li.tag{
+  float: right;
+}
+
+#nav a{
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  padding: 9px;
+}
+
+#nav a:hover{
+  background-color: #ffe901;
+  transition: all 0.3s ease 0s;
+}
+
+.name{
+  float:left;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.logo{
+  display: inline;
+}
+
+.section{
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+p.address {
+    font-size : 15px;
+    align:top;
+    width : 300px;
+    font-family:'Helvetica';
+    line-height:130%;
+    color : #575757;
+}
+
+p.email {
+
+    font-size : 15px;
+    align:top;
+    font-family:'Helvetica';
+    line-height:130%;
+    color : #282828;
+}
+
+img.logo {
+    width:40px;
+    height:40px;
+}
+
+p.projecttext {
+    position : relative;
+    top : 0px;
+    text-align: left;
+}
+
+.project{
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.video{
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
