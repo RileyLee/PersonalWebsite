@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+
+  <div class="container">
+    <div id="nav">
+      <ul>
+        <li class="menu"><a href="website.html">About</a></li>
+        <li class="menu"><a href="projects.html">Projects</a></li>
+        <li class="menu"><a href="#Contact">Contact</a></li>
+        <li class="menu"><a href="publications.html"  target="_self">Publications</a></li>
+        <li class="menu"><a href="gallery.html" target="_self">Gallery</a></li>
+        <li class="tag"><a href="http://grail.cs.washington.edu/"; target="_blank"; class="link";>University of Washington | GRAIL</a></li>
+      </ul>
+    </div>
+    <hr>
+
+    <div style="font-size: 18px; padding-left: 25px; padding-top: 20px; padding-bottom: 20px;">
+      <A NAME="Projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+          <h3>Cross-platform Halide-based Image Processing Pipeline</h3>
+          <p><blockquote>
+            I built a Halide-based cross-platform fast image proscessing solution to simplify hardware acceleration coding in
+            image processing. With out framework built on OpenGL Halide, GPU and CPU
+            image processing programs could be easily accelerated from scheduling. Meanwhile, Halide compiles them on all kind
+            of hardware platforms, iOS, Android, windows, webs apps and etc. During the project, I helped improve the Halide library with OpenGL.
+            In the meantime, I invented several new filters, such as graphic novel, pop-art and halftone.
+            Photoshop Express and Aviary have already been using our solution in their products.
+            <a href="files/CHIPP.pptx" target="_blank">[slides]</a>
+          </blockquote></p>
+        </div>
+
+        <div class="project">
+          <h3>Multi-view Environmental Matting and Interpolation</h3>
+          <blockquote><p class = "projecttext" style = "text-align : justify;">
+            Matting and compositing a reflective/refractive object like a glass cup into a new environment and make it look
+            realistic from different perspectives is an interesting generalization of traditional greenscreen matting. Douglas
+            introduced the environment matting method to simulate reflection/refraction effect for single perspective. To solve
+            our multi-view environment matting problem, we implemented the traditional single-image environment method and
+            incorporated interpolation to generate environment matting for unseen perspectives. Experiments using DSLR images
+            and iPhone videos demonstrate promising results for both single-view environment matting and interpolation. We also
+            did experiments with Lytro-Illum camera and structure from motion to calibrate camera positions. They didn't turn
+            out to be successful but is a great lesson to learn.
+            <br/>
+            <a href="http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html" target="_blank">
+              http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html
+            </a>
+          </p></blockquote>
+        </div>
+
+        <div class="project">
+          <h3>C++ based photon mapping engine for simulating fluorescent effects in vegetation canopies</h3>
+          <blockquote><p class = "project" style = "text-align : justify;">
+            I built a ray-tracing (photon-mapping) physical engine to precisely simulate the generation and transmission of multi-spectral fluorescent effect
+            in dense vegetation canopies (Plant fluorescent effect has been proved very accurate in indicating plant health condition).
+            Compared to the traditional ray-tracing engines, this engine works with high precision and efficiency in the situation
+            where most of the spectrum energy is reflected by diffusion, also the sensors (airborne cameras) are limited by very tiny field of view angles.
+            In order to achieve this, I implemented GPU acceleration with openCL on CUDA architecture. The Monte Carlo chain is also
+            optimized by improved sampling techniques. This research leads to multiple
+            <a href="publications.html" >publications</a>, where we're still working on paper of simulating fluorescent effects.
+          </p></blockquote>
+        </div>
+
+
+        <div class="project">
+          <h3>Fast mitosis counting from histopathological images using deep learning</h3>
+          <blockquote><p class = "project" style = "text-align : justify;">
+            In this project, I invented a fast mitosis detection pipeline applied to histopathological images.
+            The proposed method is similar to RCNN, where regional proposal is created by pixel-wise classification
+            using a random forest classifier. Image patches are then classified by multi-column convolutional
+            neural network. It was trained with different datasets, where pre-processing and data augmentation
+            were applied. The proposed method achieved an average 500 times speedup compared with the traditional
+            scanning window technique. In the meantime, we discovered new handcrafted image features which helps with mitosis detection.
+          </p></blockquote>
+        </div>
+
+        <div class="project">
+          <h3>CVPR 2016 face recognition challenge</h3>
+          <blockquote><p class = "project" style = "text-align : justify;">
+            We built a face detector and classifier to recognize gender and facial expression in the contest datasets. The
+            overall accuracy of predicting gender and facial expressions are 81% and 89%.
+            Our team Let's face it (2 members, me and
+            <a href="http://homes.cs.washington.edu/~deepalia/" target="_blank">Deepali Aneja</a>
+            ) ranks #5 of 77 teams with 84.7% overall accuracy on
+            detecting facial expressions and gender detection. We'll make a web page for this very soon!! Click on this
+            <a href="http://sergioescalera.com/wp-content/uploads/2016/05/18.pdf" target="_blank" class="link_db"> link </a>
+            here for the official results. <br/>
+            <a href="http://gesture.chalearn.org/2016-looking-at-people-cvpr-challenge" target="_blank">
+              https://competitions.codalab.org/competitions/8421#learn_the_details
+            </a>
+          </p></blockquote>
+        </div>
+
+        <div class="project">
+          <h3>Zooplankton recognition using deep learning neural network</h3>
+          <blockquote><p class = "project" style = "text-align : justify;">
+            In this project, I worked on classifying grayscale images of plankton. They were created using scanners on sea-water
+            samples. Each slide contains thousands of targets of different species. The target size is generally 1 - 5mm. The
+            resulting plankton densities of different species are then used by scientists to analyze the fish production.
+            Specifically, I'm trying to develop a rotation invariant deep learning convolution neural network model, which
+            combines different handcrafted color and texture features to classify different species and their different phase.
+            I'm also going to explore an optimized pipeline to efficiently select and scan the region of interest.
+          </p></blockquote>
+        </div>
+
+        <div class="project">
+          <h3>Somatosensory Control Device of the Angry Birds</h3>
+          <p><blockquote>
+            I built a wireless somatosensory control device of the game Angry Birds. The system is composed of two parts.
+            A wireless slingshot controller with acceloration sensors and tension sensors, and a wireless reciever which
+            communicate with computer through a USB port. The whole device is designed with C8051 micro-processers and two
+            self-designed PCB circuit boards.
+          </blockquote></p>
+        </div>
+      </A>
+    </div>
+
+
+    <div style="display: block;">
+      <hr style="padding: 0px; margin: 0px; position: relative;">
+
+      <div class="copyright">
+        Mr. Lee &copy 2017 &#183 All right reserved.
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

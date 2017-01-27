@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+
+  <div class="container">
+    <div id="nav">
+      <ul>
+        <li class="menu"><a href="website.html">About</a></li>
+        <li class="menu"><a href="projects.html">Projects</a></li>
+        <li class="menu"><a href="#Contact">Contact</a></li>
+        <li class="menu"><a href="publications.html"  target="_self">Publications</a></li>
+        <li class="menu"><a href="gallery.html" target="_self">Gallery</a></li>
+        <li class="tag"><a href="http://grail.cs.washington.edu/"; target="_blank"; class="link";>University of Washington | GRAIL</a></li>
+      </ul>
+    </div>
+    <hr>
+
+
+    <A NAME="Gallery">
+      <h2>Project Gallery</h2>
+
+      <div class="video">
+        <h3>CHIPP</h3>
+        <iframe src='https://onedrive.live.com/embed?cid=5C9E3B00FE6056D7&resid=5C9E3B00FE6056D7%2111304&authkey=AN8mlo1V-GUml6o&em=2&wdAr=1.7777777777777777'; width='610px'; height='367px'; frameborder='0'; border=0;>
+          This is an embedded
+          <a target='_blank' href='https://office.com'>Microsoft Office</a>
+          presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.
+        </iframe>
+      </div>
+
+      <div class="video">
+        <h3>R2D2</h3>
+        <figure style="position:relative; left: -40px;">
+          <iframe width="610" height="346" src="https://www.youtube.com/embed/5AaO7iHM_4w" frameborder="0" allowfullscreen></iframe>
+        </figure>
+        <p class="caption">
+          My first annimator project with my self-designed R2D2 model in OpenGL. Check this
+          <a href="https://github.com/RileyLee/AnimatorR2D2" target="_blank" class="link">link</a>
+          for more detail on github.
+        </p>
+      </div>
+
+      <div class="video">
+        <h3>Environmental Matting</h3>
+        <video width="610" style="position: relative; " controls="controls">
+          <source src="videos/InterpV_Gopro3.mov" >
+
+          </video>
+          <p class="caption">
+            My Environmental Matting & scene interpolation demo video. This video is generated using two matting pictures. Click the
+            <a href="http://homes.cs.washington.edu/~ylee3/EnviMatting/EnviMatting.html" target="_blank" class="link">
+              link
+            </a>
+            for more detail on our project page.
+          </p>
+        </div>
+
+        <div class="video">
+          <h3>Oil Painting Filter</h3>
+
+          <div style="position: relative; ">
+            <img src="pics/stolkholm.jpg" alt="original" style="width:30%; vertical-align: top;">
+            <img src="pics/chipp_stockholm.png" alt="oilpaint" style="width:32.05%;vertical-align: top;">
+          </div>
+          <p class="caption">
+            Picture of Stolkholm before and after Oilpaint filter from chipp (Adobe summer project). The whole 500 *
+            600 image takes iPhone6s GPU 5ms to process. The whole pipeline with scheduling and optimization takes me
+            about 2 intern days to finish using chipp (around 300 lines). However, a simple local laplacian filter used to take an experienced
+            programmer about 1 month (2000 lines) with C++ optimization. <br/>
+            <span style="font-size:10px">Photo credit : Hunter Mask ;)</span>
+          </p>
+        </div>
+      </A>
+
+
+    <div style="display: block;">
+      <hr style="padding: 0px; margin: 0px; position: relative;">
+
+      <div class="copyright">
+        Mr. Lee &copy 2017 &#183 All right reserved.
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
