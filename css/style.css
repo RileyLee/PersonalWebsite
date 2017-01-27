@@ -73,8 +73,9 @@ body{
   width: 750px;
   float: right;
   line-height: 130%;
-  padding-top: 20px;
-  font-family: Century Schoolbook;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Century Schoolbook";
   display: block;
 }
 
@@ -88,6 +89,7 @@ body{
   height: 40px;
   font-weight: normal;
   font-size: 18px;
+  font-family: "Helvetica";
   font: Tahoma;
 }
 
@@ -125,12 +127,20 @@ body{
   transition: all 0.3s ease 0s;
 }
 
-a:link{
+a.ref:link{
   color: #ffff00;
 }
 
-a:visited{
+a.ref:visited{
   color: #ffff00;
+}
+
+a.ref1:link{
+  color: #FFFF66;
+}
+
+a.ref1:visited{
+  color: #FFFF66;
 }
 
 img.logo {
